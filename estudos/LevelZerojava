@@ -1,0 +1,8 @@
+package estudos;
+
+
+public class LevelUm{
+    public static void main(String[] args){
+        System.out.println("Hello Mundo!");
+    }
+}
