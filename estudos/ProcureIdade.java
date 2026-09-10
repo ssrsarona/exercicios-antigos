@@ -25,11 +25,15 @@ public class ProcureIdade {
 
         for(int i = 0; i < idade.length; i++){
             if(nome[i].equals(nomeProcura)){
+
                 System.out.println("Digite a nova idade: ");
-                //int novaIdade = sc.nextInt();
                 idade[i] = sc.nextInt();
+                sc.nextLine();
+
                 System.out.println("Atualizado com sucesso!");
+
                 ache = true;
+
                 System.out.println("NOME: " + nome[i] + "| " + "IDADE: " + idade[i] +  "| " + "INDICE: " + i);
             }
         }
@@ -37,7 +41,7 @@ public class ProcureIdade {
             System.out.println("NENHUMA PESSOA ENCONTRADA");
 
         }
-        System.out.println("NOVO  DADO: ");
+        
         
     sc.close();
    } 
